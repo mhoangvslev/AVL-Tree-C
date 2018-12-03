@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -shared -Wl,-soname,libTreeAVL.so.0 -o libTreeAVL.so.0.0.1 CMakeFiles/TreeAVL.dir/TreeAVL.c.o /usr/lib/libefence.a 

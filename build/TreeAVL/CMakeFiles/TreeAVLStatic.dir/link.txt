@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTreeAVL.a  CMakeFiles/TreeAVLStatic.dir/TreeAVL.c.o
+/usr/bin/ranlib libTreeAVL.a
