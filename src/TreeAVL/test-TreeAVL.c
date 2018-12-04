@@ -11,16 +11,18 @@ int main()
 {
     AVL root = NULL;
 
-    printf("Test insertion (donc RotD, RotG): ");
+    printf("Test insertion (donc RotD, RotG): \n");
 
     root = Ajouter(9, root);
     assert(root->value == 9);
+    assert(getBalance(root) == 0);
 
     root = Ajouter(5, root);
     assert(root->childLeft->value == 5);
 
     root = Ajouter(10, root);
     assert(root->childRight->value == 10);
+    assert(hauteur(root) == 2);
 
     root = Ajouter(0, root);
     assert( root->childLeft->childLeft->value == 0 );
@@ -38,11 +40,11 @@ int main()
     assert( root->childLeft->childLeft->childRight->value = 1 );
 
     root = Ajouter(2, root);
-    assert( root->childLeft->childLeft->childRight->childRight->value = 2 );
+    assert( root->childLeft->childRight->childLeft->value = 2 );
 
     printf("OK!\n");
 
-    printf("Test Noeuds:");
+    printf("Test Noeuds: \n");
     assert( Noeuds(root) == 9 );
     printf("OK!\n");
 
@@ -51,7 +53,7 @@ int main()
     afficherAVLInOrder(root);  printf("\nOK!\n");
     afficherAVLPostOrder(root);  printf("\nOK!\n");
 
-    printf("Test suppression (donc RotD, RotG et Rechercher): ");
+    printf("Test suppression (donc RotD, RotG et Rechercher): \n");
     printf("Pre-order avant suppression: \n");
     afficherAVLTopo(root, 2);
 
