@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -shared -Wl,-soname,libntree.so.0 -o libntree.so.0.0.1 CMakeFiles/ntree.dir/ntree.c.o /usr/lib/libefence.a 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libntree.a  CMakeFiles/ntreeStatic.dir/ntree.c.o
+/usr/bin/ranlib libntree.a

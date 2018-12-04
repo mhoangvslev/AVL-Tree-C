@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Ntree"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ntreeStatic">
+				<Option output="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/libntree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 ntreeStatic"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ntreeStatic/fast">
+				<Option output="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/libntree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 ntreeStatic/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ntree">
+				<Option output="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/libntree.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 ntree"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ntree/fast">
+				<Option output="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/libntree.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 ntree/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-ntree">
+				<Option output="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/test-ntree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 test-ntree"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-ntree/fast">
+				<Option output="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/test-ntree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 test-ntree/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/src/ntree/ntree.c">
+			<Option target="ntreeStatic"/>
+			<Option target="ntree"/>
+		</Unit>
+		<Unit filename="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/src/ntree/ntree.h">
+			<Option target="ntreeStatic"/>
+			<Option target="ntree"/>
+			<Option target="test-ntree"/>
+		</Unit>
+		<Unit filename="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/src/ntree/test-ntree.c">
+			<Option target="test-ntree"/>
+		</Unit>
+		<Unit filename="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/src/ntree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

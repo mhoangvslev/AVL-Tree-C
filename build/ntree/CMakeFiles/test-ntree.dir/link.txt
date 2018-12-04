@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/test-ntree.dir/test-ntree.c.o  -o test-ntree -Wl,-rpath,/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree libntree.so.0.0.1 /usr/lib/libefence.a 

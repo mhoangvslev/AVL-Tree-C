@@ -1,0 +1,11 @@
+/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/CMakeFiles/install/strip.dir
+/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/CMakeFiles/list_install_components.dir
+/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/CMakeFiles/rebuild_cache.dir
+/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/CMakeFiles/install/local.dir
+/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/CMakeFiles/ntreeStatic.dir
+/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/CMakeFiles/ntree.dir
+/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/CMakeFiles/edit_cache.dir
+/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/CMakeFiles/install.dir
+/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/CMakeFiles/test-ntree.dir
+/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/CMakeFiles/package.dir
+/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TP02/build/ntree/CMakeFiles/package_source.dir
