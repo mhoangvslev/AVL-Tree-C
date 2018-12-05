@@ -48,6 +48,7 @@ AVL RotD(AVL arbre)
     left->childRight = arbre;
     arbre->childLeft = leftright;
 
+    left->bal = 0;
     return left;
 }
 
@@ -60,45 +61,62 @@ AVL RotG(AVL arbre)
     right->childLeft = arbre;
     arbre->childRight = rightleft;
 
+    right->bal = 0;
     return right;
 }
 
 int getBalance(AVL arbre)
 {
-    if(arbre)
+    if(arbre){
         return hauteur(arbre->childLeft) - hauteur(arbre->childRight);
+    }
     return 0;
+}
+
+AVL doubleRotG(AVL arbre){
+    return RotD(arbre);
+}
+
+AVL doubleRotD(AVL arbre){
+    return RotG(arbre);
+}
+
+AVL RotGD(AVL arbre){
+    arbre->childLeft =  RotG(arbre->childLeft);
+    return RotD(arbre);}
+
+AVL RotDG(AVL arbre){
+    arbre->childRight = RotD(arbre->childRight);
+    return RotG(arbre);
 }
 
 AVL UpdateAjouter(Element v, AVL arbre)
 {
-    int balance = getBalance(arbre);
+    int balance = arbre->bal;
     //printf("Balance: %d\n", balance);
 
     // LL
     if(balance > 1 && v < arbre->childLeft->value){
         //printf("Arbre deséquilibré au noeud %d\n--> Double rotation Gauche\n", arbre->childLeft->value);
-        return RotD(arbre);
+        return doubleRotG(arbre);
     }
 
     // RR
     if(balance < -1 && v > arbre->childRight->value){
         //printf("Arbre deséquilibré au noeud %d\n--> \n Double rotation droite\n", arbre->childRight->value);
-        return RotG(arbre);
+        return doubleRotD(arbre);
     }
 
     // LR
     if (balance > 1 && v > arbre->childLeft->value){
         //printf("Arbre deséquilibré au noeud %d\n--> Rotation gauche puis droite\n", arbre->childLeft->value);
-        arbre->childLeft =  RotG(arbre->childLeft);
-        return RotD(arbre);
+        return RotGD(arbre);
     }
 
     // RL
     if (balance < -1 && v < arbre->childRight->value){
         //printf("Arbre deséquilibré au noeud %d\n--> Rotation droite puis gauche\n", arbre->childRight->value);
-        arbre->childRight = RotD(arbre->childRight);
-        return RotG(arbre);
+        return RotDG(arbre);
     }
 
     //printf("Arbre équilibré.\n");
@@ -130,6 +148,8 @@ AVL Ajouter (Element v, AVL arbre)
         return arbre;
     }
 
+    arbre->bal = getBalance(arbre);
+
     return UpdateAjouter(v, arbre);
 }
 
@@ -151,27 +171,25 @@ AVL UpdateSupprimer(AVL arbre){
     // LL
     if(balance > 1 && getBalance(arbre->childLeft) >= 0){
         //printf("Arbre deséquilibré au noeud %d\n--> Double rotation Gauche\n", arbre->childLeft->value);
-        return RotD(arbre);
+        return doubleRotG(arbre);
     }
 
     // RR
     if(balance < -1 && getBalance(arbre->childRight) <= 0){
         //printf("Arbre deséquilibré au noeud %d\n--> \n Double rotation droite\n", arbre->childRight->value);
-        return RotG(arbre);
+        return doubleRotD(arbre);
     }
 
     // LR
     if (balance > 1 && getBalance(arbre->childLeft) < 0){
         //printf("Arbre deséquilibré au noeud %d\n--> Rotation gauche puis droite\n", arbre->childLeft->value);
-        arbre->childLeft =  RotG(arbre->childLeft);
-        return RotD(arbre);
+        return RotGD(arbre);
     }
 
     // RL
     if (balance < -1 && getBalance(arbre->childRight) > 0){
         //printf("Arbre deséquilibré au noeud %d\n--> Rotation droite puis gauche\n", arbre->childRight->value);
-        arbre->childRight = RotD(arbre->childRight);
-        return RotG(arbre);
+        return RotDG(arbre);
     }
 
     //printf("Arbre équilibré.\n");
@@ -218,6 +236,7 @@ AVL Supprimer(Element v, AVL arbre)
     if(arbre == NULL) return arbre;
 
     // Mettre à jour
+    arbre->bal = getBalance(arbre);
     return UpdateSupprimer(arbre);
 }
 

@@ -15,7 +15,6 @@ int main()
 
     root = Ajouter(9, root);
     assert(root->value == 9);
-    assert(getBalance(root) == 0);
 
     root = Ajouter(5, root);
     assert(root->childLeft->value == 5);
