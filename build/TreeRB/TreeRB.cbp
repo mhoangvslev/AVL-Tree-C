@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TreeRB"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TreeRBStatic">
+				<Option output="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/libTreeRB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 TreeRBStatic"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TreeRBStatic/fast">
+				<Option output="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/libTreeRB.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 TreeRBStatic/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TreeRB">
+				<Option output="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/libTreeRB.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 TreeRB"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TreeRB/fast">
+				<Option output="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/libTreeRB.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 TreeRB/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-TreeRB">
+				<Option output="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/test-TreeRB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 test-TreeRB"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-TreeRB/fast">
+				<Option output="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/test-TreeRB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 test-TreeRB/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/src/TreeRB/TreeRB.c">
+			<Option target="TreeRBStatic"/>
+			<Option target="TreeRB"/>
+		</Unit>
+		<Unit filename="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/src/TreeRB/TreeRB.h">
+			<Option target="TreeRBStatic"/>
+			<Option target="TreeRB"/>
+			<Option target="test-TreeRB"/>
+		</Unit>
+		<Unit filename="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/src/TreeRB/test-TreeRB.c">
+			<Option target="test-TreeRB"/>
+		</Unit>
+		<Unit filename="/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/src/TreeRB/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

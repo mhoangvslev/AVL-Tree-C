@@ -1,9 +1,9 @@
-echo "Rebuild ntree"
-rm -r ./build/ntree/*
-cd ./build/ntree/
-cmake ../../src/ntree/ -DCMAKE_INSTALL_PREFIX=../../tmp/
+echo "Rebuild TreeAVL"
+rm -r ./build/TreeAVL/*
+cd ./build/TreeAVL/
+cmake ../../src/TreeAVL/ -DCMAKE_INSTALL_PREFIX=../../tmp/
 make
 make install
 
-echo "Test ntree..."
-./test-ntree
+echo "Test TreeAVL..."
+./test-TreeAVL

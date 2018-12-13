@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTreeRB.a  CMakeFiles/TreeRBStatic.dir/TreeRB.c.o
+/usr/bin/ranlib libTreeRB.a
