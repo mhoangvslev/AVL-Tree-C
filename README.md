@@ -1,3 +1,5 @@
+[![Waffle.io - Issues in progress](https://badge.waffle.io/mhoangvslev/AVL-Tree-C.png?label=in%20progress&title=In%20Progress)](http://waffle.io/mhoangvslev/AVL-Tree-C)
+
 # AVL-Tree-C
 Basic implementation of various type of search tree. Configured with CMakeUI and edited with CodeBlock
 
