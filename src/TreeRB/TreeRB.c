@@ -1,12 +1,16 @@
-#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <math.h>
+#include <GL/glut.h>
+#include <GL/gl.h>
+#include <GL/glu.h>
 
 #include "TreeRB.h"
 
 #include <stdbool.h>
 
-ARB create (Element x)
+ARB create(Element x)
 {
     ARB res = (ARB) malloc(sizeof(Element) + sizeof(Couleur) + 3*sizeof(ARB));
     if(res)
@@ -423,3 +427,6 @@ void afficherARBTopo(ARB racine, int space)
     // Process left child
     afficherARBTopo(racine->childLeft, space);
 }
+
+
+

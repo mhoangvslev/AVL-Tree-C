@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/src/TreeRB/TreeRB.c
+/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/src/TreeRB/TreeRB.h
+stdbool.h
+-
+
+/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/src/TreeRB/test-TreeRBIHM.c
 stdio.h
 -
 stdlib.h
@@ -23,10 +27,4 @@ GL/glu.h
 -
 TreeRB.h
 /media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/src/TreeRB/TreeRB.h
-stdbool.h
--
-
-/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/src/TreeRB/TreeRB.h
-stdbool.h
--
 

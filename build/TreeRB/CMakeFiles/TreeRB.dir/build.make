@@ -79,6 +79,9 @@ TreeRB_EXTERNAL_OBJECTS =
 
 libTreeRB.so.0.0.1: CMakeFiles/TreeRB.dir/TreeRB.c.o
 libTreeRB.so.0.0.1: CMakeFiles/TreeRB.dir/build.make
+libTreeRB.so.0.0.1: /usr/lib/x86_64-linux-gnu/libGL.so
+libTreeRB.so.0.0.1: /usr/lib/x86_64-linux-gnu/libGLU.so
+libTreeRB.so.0.0.1: /usr/lib/x86_64-linux-gnu/libglut.so
 libTreeRB.so.0.0.1: /usr/lib/libefence.a
 libTreeRB.so.0.0.1: CMakeFiles/TreeRB.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library libTreeRB.so"

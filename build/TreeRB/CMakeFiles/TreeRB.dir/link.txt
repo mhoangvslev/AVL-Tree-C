@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -g  -shared -Wl,-soname,libTreeRB.so.0 -o libTreeRB.so.0.0.1 CMakeFiles/TreeRB.dir/TreeRB.c.o /usr/lib/libefence.a 
+/usr/bin/cc -fPIC -g  -shared -Wl,-soname,libTreeRB.so.0 -o libTreeRB.so.0.0.1 CMakeFiles/TreeRB.dir/TreeRB.c.o /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libglut.so -lm /usr/lib/libefence.a 

@@ -12,6 +12,15 @@ set_target_properties(TreeRBStatic PROPERTIES
 	OUTPUT_NAME TreeRB
 )
 
+find_package(OpenGL REQUIRED)
+find_package(GLUT REQUIRED)
+
+include_directories(${OPENGL_INCLUDE_DIRS} ${GLUT_INCLUDE_DIRS})
+
+target_link_libraries(TreeRB ${OPENGL_LIBRARIES} ${GLUT_LIBRARY})
+
+target_link_libraries(TreeRB m) #lib math
+
 # La librarie efence (ElectricFence https://en.wikipedia.org/wiki/Electric_Fence)
 # permet de détecter au plus près les erreurs d'accès aux pointeurs,
 # les erreurs d'allocations...

@@ -1,0 +1,6 @@
+/home/ubuntu/Documents/TEA/tmp/lib/libTreeRB.so.0.0.1
+/home/ubuntu/Documents/TEA/tmp/lib/libTreeRB.so.0
+/home/ubuntu/Documents/TEA/tmp/lib/libTreeRB.so
+/home/ubuntu/Documents/TEA/tmp/lib/libTreeRB.a
+/home/ubuntu/Documents/TEA/tmp/include/TreeRB.h
+/home/ubuntu/Documents/TEA/tmp/cmake/TreeRBConfig.cmake

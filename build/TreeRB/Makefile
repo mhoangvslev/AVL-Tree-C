@@ -113,6 +113,17 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
@@ -134,17 +145,6 @@ package_source:
 package_source/fast: package_source
 
 .PHONY : package_source/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -217,6 +217,19 @@ test-TreeRB/fast:
 	$(MAKE) -f CMakeFiles/test-TreeRB.dir/build.make CMakeFiles/test-TreeRB.dir/build
 .PHONY : test-TreeRB/fast
 
+#=============================================================================
+# Target rules for targets named test-TreeRBIHM
+
+# Build rule for target.
+test-TreeRBIHM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test-TreeRBIHM
+.PHONY : test-TreeRBIHM
+
+# fast build rule for target.
+test-TreeRBIHM/fast:
+	$(MAKE) -f CMakeFiles/test-TreeRBIHM.dir/build.make CMakeFiles/test-TreeRBIHM.dir/build
+.PHONY : test-TreeRBIHM/fast
+
 TreeRB.o: TreeRB.c.o
 
 .PHONY : TreeRB.o
@@ -274,6 +287,33 @@ test-TreeRB.c.s:
 	$(MAKE) -f CMakeFiles/test-TreeRB.dir/build.make CMakeFiles/test-TreeRB.dir/test-TreeRB.c.s
 .PHONY : test-TreeRB.c.s
 
+test-TreeRBIHM.o: test-TreeRBIHM.c.o
+
+.PHONY : test-TreeRBIHM.o
+
+# target to build an object file
+test-TreeRBIHM.c.o:
+	$(MAKE) -f CMakeFiles/test-TreeRBIHM.dir/build.make CMakeFiles/test-TreeRBIHM.dir/test-TreeRBIHM.c.o
+.PHONY : test-TreeRBIHM.c.o
+
+test-TreeRBIHM.i: test-TreeRBIHM.c.i
+
+.PHONY : test-TreeRBIHM.i
+
+# target to preprocess a source file
+test-TreeRBIHM.c.i:
+	$(MAKE) -f CMakeFiles/test-TreeRBIHM.dir/build.make CMakeFiles/test-TreeRBIHM.dir/test-TreeRBIHM.c.i
+.PHONY : test-TreeRBIHM.c.i
+
+test-TreeRBIHM.s: test-TreeRBIHM.c.s
+
+.PHONY : test-TreeRBIHM.s
+
+# target to generate assembly for a file
+test-TreeRBIHM.c.s:
+	$(MAKE) -f CMakeFiles/test-TreeRBIHM.dir/build.make CMakeFiles/test-TreeRBIHM.dir/test-TreeRBIHM.c.s
+.PHONY : test-TreeRBIHM.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -285,18 +325,22 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... TreeRBStatic"
 	@echo "... TreeRB"
 	@echo "... test-TreeRB"
 	@echo "... package"
 	@echo "... package_source"
-	@echo "... edit_cache"
+	@echo "... test-TreeRBIHM"
 	@echo "... TreeRB.o"
 	@echo "... TreeRB.i"
 	@echo "... TreeRB.s"
 	@echo "... test-TreeRB.o"
 	@echo "... test-TreeRB.i"
 	@echo "... test-TreeRB.s"
+	@echo "... test-TreeRBIHM.o"
+	@echo "... test-TreeRBIHM.i"
+	@echo "... test-TreeRBIHM.s"
 .PHONY : help
 
 
