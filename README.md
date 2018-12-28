@@ -13,3 +13,19 @@ An AVL tree (named after inventors Adelson-Velsky and Landis) is a self-balancin
 
 ## Red-Black tree
 A red–black tree is a kind of self-balancing binary search tree in computer science
+- 2 test files : 
+	+ Console display : test-TreeRB.c
+	+ GUI display : test-TreeRBIHM.c
+
+- OpenGL GLUT is required: ```sudo apt-get install freeglut3-dev```
+
+- Test by simply compile and execute:
+
+```bash
+make test-TreeRB
+./test-TreeRB                # pour executer les test de l'arbre
+
+
+make test-TreeRBIHM
+./test-TreeRBIHM             # pour le dessin de l'arbre (avec IHM textuelle)
+```
