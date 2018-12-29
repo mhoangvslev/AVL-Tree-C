@@ -27,7 +27,9 @@ A red–black tree is a kind of self-balancing binary search tree in computer sc
 make test-TreeRB
 ./test-TreeRB                # pour executer les test de l'arbre
 
-
 make test-TreeRBIHM
 ./test-TreeRBIHM             # pour le dessin de l'arbre (avec IHM textuelle)
+
+make test-TreeRB-exectime
+./test-TreeRB-exectime       # temps d'éxécution avec différentes tailles d'arbre
 ```
