@@ -83,7 +83,6 @@ test-TreeRB: libTreeRB.so.0.0.1
 test-TreeRB: /usr/lib/x86_64-linux-gnu/libGL.so
 test-TreeRB: /usr/lib/x86_64-linux-gnu/libGLU.so
 test-TreeRB: /usr/lib/x86_64-linux-gnu/libglut.so
-test-TreeRB: /usr/lib/libefence.a
 test-TreeRB: CMakeFiles/test-TreeRB.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable test-TreeRB"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-TreeRB.dir/link.txt --verbose=$(VERBOSE)

@@ -68,18 +68,6 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -124,6 +112,17 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/CPackSourceConfig.cmake
+.PHONY : package_source
+
+# Special rule for the target package_source
+package_source/fast: package_source
+
+.PHONY : package_source/fast
+
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
@@ -135,16 +134,17 @@ package/fast: package
 
 .PHONY : package/fast
 
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /media/Windows/Users/minhh/OneDrive/UnivLR/L3/S5/ProgC/TEA/build/TreeRB/CPackSourceConfig.cmake
-.PHONY : package_source
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
 
-# Special rule for the target package_source
-package_source/fast: package_source
-
-.PHONY : package_source/fast
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -218,6 +218,19 @@ test-TreeRB/fast:
 .PHONY : test-TreeRB/fast
 
 #=============================================================================
+# Target rules for targets named test-TreeRB-exectime
+
+# Build rule for target.
+test-TreeRB-exectime: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test-TreeRB-exectime
+.PHONY : test-TreeRB-exectime
+
+# fast build rule for target.
+test-TreeRB-exectime/fast:
+	$(MAKE) -f CMakeFiles/test-TreeRB-exectime.dir/build.make CMakeFiles/test-TreeRB-exectime.dir/build
+.PHONY : test-TreeRB-exectime/fast
+
+#=============================================================================
 # Target rules for targets named test-TreeRBIHM
 
 # Build rule for target.
@@ -259,6 +272,33 @@ TreeRB.c.s:
 	$(MAKE) -f CMakeFiles/TreeRBStatic.dir/build.make CMakeFiles/TreeRBStatic.dir/TreeRB.c.s
 	$(MAKE) -f CMakeFiles/TreeRB.dir/build.make CMakeFiles/TreeRB.dir/TreeRB.c.s
 .PHONY : TreeRB.c.s
+
+test-TreeRB-exectime.o: test-TreeRB-exectime.c.o
+
+.PHONY : test-TreeRB-exectime.o
+
+# target to build an object file
+test-TreeRB-exectime.c.o:
+	$(MAKE) -f CMakeFiles/test-TreeRB-exectime.dir/build.make CMakeFiles/test-TreeRB-exectime.dir/test-TreeRB-exectime.c.o
+.PHONY : test-TreeRB-exectime.c.o
+
+test-TreeRB-exectime.i: test-TreeRB-exectime.c.i
+
+.PHONY : test-TreeRB-exectime.i
+
+# target to preprocess a source file
+test-TreeRB-exectime.c.i:
+	$(MAKE) -f CMakeFiles/test-TreeRB-exectime.dir/build.make CMakeFiles/test-TreeRB-exectime.dir/test-TreeRB-exectime.c.i
+.PHONY : test-TreeRB-exectime.c.i
+
+test-TreeRB-exectime.s: test-TreeRB-exectime.c.s
+
+.PHONY : test-TreeRB-exectime.s
+
+# target to generate assembly for a file
+test-TreeRB-exectime.c.s:
+	$(MAKE) -f CMakeFiles/test-TreeRB-exectime.dir/build.make CMakeFiles/test-TreeRB-exectime.dir/test-TreeRB-exectime.c.s
+.PHONY : test-TreeRB-exectime.c.s
 
 test-TreeRB.o: test-TreeRB.c.o
 
@@ -321,20 +361,24 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... package_source"
 	@echo "... TreeRBStatic"
 	@echo "... TreeRB"
 	@echo "... test-TreeRB"
 	@echo "... package"
-	@echo "... package_source"
+	@echo "... install/local"
+	@echo "... test-TreeRB-exectime"
 	@echo "... test-TreeRBIHM"
 	@echo "... TreeRB.o"
 	@echo "... TreeRB.i"
 	@echo "... TreeRB.s"
+	@echo "... test-TreeRB-exectime.o"
+	@echo "... test-TreeRB-exectime.i"
+	@echo "... test-TreeRB-exectime.s"
 	@echo "... test-TreeRB.o"
 	@echo "... test-TreeRB.i"
 	@echo "... test-TreeRB.s"

@@ -7,3 +7,9 @@ make install
 
 echo "Test TreeRB..."
 ./test-TreeRB
+
+echo "Test TreeRB..."
+./test-TreeRBIHM
+
+echo "Test TreeRB..."
+./test-TreeRB-exectime
